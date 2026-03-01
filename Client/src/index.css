@@ -1,0 +1,37 @@
+/* Font family import */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+/* import Tailwind here */
+@import "tailwindcss";
+/* Default font style defined here */
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+/* @theme{
+    --primary-color: #5044E5;
+} */
+
+/* Animation used in Hero section */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.marquee-inner {
+  animation: marquee 30s linear infinite;
+}
+
+/* Remove the tailwind fro creation to get structured layout */
+.reset-tw, .reset-tw *
+{
+  all: revert !important;
+}
+
+/* Add z-index to the clerk side-bar */
+.cl-drawerRoot
+{
+  z-index: 50;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "quick.ai",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000Q\u0000u\u0000i\u0000c\u0000k\u0000.\u0000a\u0000i\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+   "build": "npm install --prefix Server && npm install --prefix Client && npm run build --prefix Cleint",
+    "start": "npm run start --prefix Server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaiqWajahat/AI-SaaS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaiqWajahat/AI-SaaS/issues"
+  },
+  "homepage": "https://github.com/FaiqWajahat/AI-SaaS#readme"
+}
